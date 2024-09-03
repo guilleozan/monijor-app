@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
-// import "../styles/about.css";
+import "../styles/globalStyles.css";
 
 const About = () => {
   return (
@@ -13,6 +13,8 @@ const About = () => {
             <h1>About us</h1>
           </div>
         </div>
+
+        
       </div>
       <div className="about-story">
         <div className="story-image">
