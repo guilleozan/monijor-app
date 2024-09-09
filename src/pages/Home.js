@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import "../styles/globalStyles.css";
-// import "../styles/contact.css"
 
 const Home = () => {
   return (
@@ -108,51 +107,50 @@ const Home = () => {
       </div>
 
       <div className="gallery-overview">
-      <h2 className="text-11">Some of our Products</h2>
+        <h2 className="text-11">Some of our Products</h2>
         <div className="columns-2">
-          
-            <div className="content-2">
-              <div className="list-items">
-                
-              </div>
-            </div>
+          <div className="content-2">
+            <div className="list-items"></div>
           </div>
-         
-          <div className="small-columns">
-            <div className="column-6">
-              <div className="image-wrapper-5">
-                <div className="image_wrapper">
-                  <div className="image-5">
-                    <div className="image_1">Croissants, Danish</div>
-                  </div>
-                </div>
-              </div>
-              <div className="image-wrapper-5">
-                <div className="image_wrapper">
-                  <div className="image-6">
-                    <div className="image_1">Scones</div>
-                  </div>
-                </div>
-              </div>
-              <div className="image-wrapper-5">
-                <div className="image_wrapper">
-                  <div className="image-7">
-                    <div className="image_1">Other Products</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
 
+        <div className="small-columns">
+          <div className="column-6">
+            <div className="image-wrapper-5">
+              <div className="image_wrapper">
+                <div className="image-5">
+                  <div className="image_1">Croissants, Danish</div>
+                </div>
+              </div>
+            </div>
+            <div className="image-wrapper-5">
+              <div className="image_wrapper">
+                <div className="image-6">
+                  <div className="image_1">Scones</div>
+                </div>
+              </div>
+            </div>
+            <div className="image-wrapper-5">
+              <div className="image_wrapper">
+                <div className="image-7">
+                  <div className="image_1">Other Products</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-{/* TESTIMONIAL SEECTION */}
+      {/* TESTIMONIAL SEECTION */}
       <div className="testimonial-column-light">
         <div className="text-11">Testimonial section</div>
         <div className="testimonial-content">
           <div className="testimonial-card">
             <p>
-            "La Monijor is our family’s favorite bakery in Córdoba. Their bread is always fresh, and their pastries are to die for! We’ve been loyal customers for over 10 years and can’t imagine our mornings without their delicious treats."
+              "La Monijor is our family’s favorite bakery in Córdoba. Their
+              bread is always fresh, and their pastries are to die for! We’ve
+              been loyal customers for over 10 years and can’t imagine our
+              mornings without their delicious treats."
             </p>
             <div className="author">
               <img src="/images/Image_6.png" alt="Author" />
@@ -164,7 +162,10 @@ const Home = () => {
           </div>
           <div className="testimonial-card">
             <p>
-            "Every visit to La Monijor is a delightful experience. From their warm croissants to their perfectly baked cakes, everything is made with love and quality. It’s no wonder they’ve been a staple in the community for over six decades."
+              "Every visit to La Monijor is a delightful experience. From their
+              warm croissants to their perfectly baked cakes, everything is made
+              with love and quality. It’s no wonder they’ve been a staple in the
+              community for over six decades."
             </p>
             <div className="author">
               <img src="/images/Image_7.png" alt="Author" />
@@ -176,7 +177,10 @@ const Home = () => {
           </div>
           <div className="testimonial-card">
             <p>
-            "As a lover of all things sweet, I can confidently say that La Monijor has the best selection of baked goods in the region. Their customer service is just as wonderful as their products. Highly recommend to anyone visiting Córdoba!"
+              "As a lover of all things sweet, I can confidently say that La
+              Monijor has the best selection of baked goods in the region. Their
+              customer service is just as wonderful as their products. Highly
+              recommend to anyone visiting Córdoba!"
             </p>
             <div className="author">
               <img src="/images/Image_8.png" alt="Author" />
@@ -188,7 +192,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       {/* why us section */}
 
@@ -202,7 +205,9 @@ const Home = () => {
             <div className="text-14">
               <h2 className="text-15">Why Us?</h2>
               <p className="text-16">
-              At La Monijor, we’ve been crafting artisanal baked goods for over 65 years, and our commitment to quality is second to none. Here’s why our customers love us:
+                At La Monijor, we’ve been crafting artisanal baked goods for
+                over 65 years, and our commitment to quality is second to none.
+                Here’s why our customers love us:
               </p>
             </div>
             <div className="features">
