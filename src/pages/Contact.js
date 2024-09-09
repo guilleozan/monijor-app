@@ -67,7 +67,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="map-section">
-        <img src="/images/Image.png" alt="Map" />
+        <img src="/images/contact.png" alt="Map" />
       </div>
       <div className="testimonial-column-light">
         <div className="text-11">Testimonial section</div>
