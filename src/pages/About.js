@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import "../styles/globalStyles.css";
@@ -13,8 +12,6 @@ const About = () => {
             <h1>About us</h1>
           </div>
         </div>
-
-        
       </div>
       <div className="about-story">
         <div className="story-image">
@@ -23,9 +20,8 @@ const About = () => {
         <div className="story-content">
           <h2>Our Story</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla.
+            Whether you're craving a sweet treat or need fresh bread for your
+            family, we've got something for everyone.
           </p>
           <button className="get-started-button">Get Started</button>
         </div>

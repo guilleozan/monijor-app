@@ -19,11 +19,12 @@ const Contact = () => {
         <div className="contact-details">
           <h2>Get in touch with us</h2>
           <p>
-            Duis semper lacus scelerisque, aliquam leo
+            The lake's eternal charm, combined with the beautiful
             <br />
-            quis, porttitor leo. Etiam lobortis dapibus
-            <br />
-            libero vel.
+             surrounding landscape, offers a breathtaking view. The 
+             <br />
+              gentle waves and serene environment create a peaceful retreat.
+            
           </p>
           <div className="contact-info">
             <div className="info-item">
@@ -74,43 +75,46 @@ const Contact = () => {
         <div className="testimonial-content">
           <div className="testimonial-card">
             <p>
-              “Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat.”
+              “La Monijor is our family’s favorite bakery in Córdoba. Their
+              bread is always fresh, and their pastries are to die for! We’ve
+              been loyal customers for over 10 years and can’t imagine our
+              mornings without their delicious treats.”
             </p>
             <div className="author">
               <img src="/images/Image_6.png" alt="Author" />
               <div>
-                <h4>Author Name</h4>
-                <p>VP of Company</p>
+                <h4>Ana Martínez</h4>
+                <p>Local Resident</p>
               </div>
             </div>
           </div>
           <div className="testimonial-card">
             <p>
-              “Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat.”
+              “Every visit to La Monijor is a delightful experience. From their
+              warm croissants to their perfectly baked cakes, everything is made
+              with love and quality. It’s no wonder they’ve been a staple in the
+              community for over six decades.”
             </p>
             <div className="author">
               <img src="/images/Image_7.png" alt="Author" />
               <div>
-                <h4>Author Name</h4>
-                <p>VP of Company</p>
+                <h4>Carlos Fernández</h4>
+                <p>Small Business Ownery</p>
               </div>
             </div>
           </div>
           <div className="testimonial-card">
             <p>
-              “Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat.”
+              “As a lover of all things sweet, I can confidently say that La
+              Monijor has the best selection of baked goods in the region. Their
+              customer service is just as wonderful as their products. Highly
+              recommend to anyone visiting Córdoba!”
             </p>
             <div className="author">
               <img src="/images/Image_8.png" alt="Author" />
               <div>
-                <h4>Author Name</h4>
-                <p>VP of Company</p>
+                <h4>Maria Gómez</h4>
+                <p>Food Blogger</p>
               </div>
             </div>
           </div>

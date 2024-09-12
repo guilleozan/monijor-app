@@ -1,6 +1,5 @@
 /* Glboal styles */
 
-
 /* Header */
 .navbar-container {
   display: flex;
@@ -28,7 +27,7 @@
   font-size: 22px;
   font-weight: bold;
 }
-.navbar-link img{
+.navbar-link img {
   display: flex;
   flex-direction: row !important;
 }
@@ -153,7 +152,8 @@
   width: 100%;
   height: auto;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/images/HeroHeading.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/images/HeroHeading.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -203,7 +203,6 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.5s;
-
 }
 
 .hero-button:hover {
@@ -343,8 +342,6 @@
   padding: 40px;
 }
 
-
-
 .text-10 {
   font-size: 32px;
   font-weight: bold;
@@ -366,7 +363,6 @@
   margin-bottom: 40px;
 }
 .small-columns {
-  
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
@@ -516,7 +512,7 @@
   height: auto;
   padding: 1rem;
   padding-right: 1.5rem;
-  
+
   border-radius: 10px;
 }
 
@@ -743,9 +739,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .faq-section h2 {
   font-size: 36px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 /*--------------------- Contact Page ------------------------- */
