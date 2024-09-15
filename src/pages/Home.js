@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import "../styles/globalStyles.css";
-// import "../styles/contact.css"
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
             Whether you're craving a sweet treat or need fresh bread for your
             family, we've got something for everyone.
           </p>
-          <button className="hero-button">Our Products</button>
+          <Link to="/products" className="hero-button">Our Products</Link>
         </div>
       </div>
 

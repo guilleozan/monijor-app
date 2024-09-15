@@ -25,14 +25,14 @@ const Header = () => {
               Contact
             </Link>
 
-            <Link href="#" className="navbar-link shop flex items-center">
+            {/* <Link href="/products" className="navbar-link shop flex items-center">
               Shop
               <img
                 src="https://uploads-ssl.webflow.com/66bedb35bcc767bc5d766e6f/66bedb78d75f8b0fb892eb49_Vectors-Wrapper.svg"
                 alt=""
                 className="ml-2 w-5 h-5"
               />
-            </Link>
+            </Link> */}
           </nav>
         </div>
       </header>
