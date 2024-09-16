@@ -49,7 +49,7 @@ const Products = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="w-50 h-50 object-cover rounded-md"
+              className="w-56 h-52 object-cover rounded-md overflow-hidden hover:scale-105 transition-all"
             />
           </div>
           <div className="text-center mb-4">
