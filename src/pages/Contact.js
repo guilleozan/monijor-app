@@ -31,14 +31,14 @@ const Contact = () => {
               <i className="fas fa-envelope"></i>
               <div>
                 <p>Email</p>
-                <p>contact@email.com</p>
+                <p>info@lamonijor.com</p>
               </div>
             </div>
             <div className="info-item">
               <i className="fas fa-phone"></i>
               <div>
                 <p>Call Us</p>
-                <p>(800) 123 456 459</p>
+                <p>(800) 032 9434 444</p>
               </div>
             </div>
             <div className="info-item">
@@ -68,7 +68,9 @@ const Contact = () => {
         </div>
       </div>
       <div className="map-section">
-        <img src="/images/contact.png" alt="Map" />
+      <iframe className=" w-3/4 h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.33203504006866!2d-64.4862870779074!3d-31.087727528520666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d8303ef0e7da3%3A0xbeb57619e03a6c28!2sPanaderia%20La%20Monijor!5e0!3m2!1sen!2snz!4v1726465027916!5m2!1sen!2snz" ></iframe>
+
+      
       </div>
       <div className="testimonial-column-light">
         <div className="text-11">Testimonial section</div>
