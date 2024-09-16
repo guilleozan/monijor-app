@@ -23,26 +23,24 @@ const Footer = () => {
             </div>
             <div className="footer-column">
               <h3>COMPANY</h3>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 Home
               </a>
-              <a href="#" className="footer-link">
+              <a href="/about" className="footer-link">
                 About
               </a>
-              <a href="#" className="footer-link">
+              <a href="/products" className="footer-link">
                 Products
               </a>
             </div>
             <div className="footer-column">
               <h3>RESOURCES</h3>
-              <a href="#" className="footer-link">
-                Catalogue
-              </a>
-              <a href="#" className="footer-link">
+              
+              <a href="/products" className="footer-link">
                 Bulk Sale
               </a>
-              <a href="#" className="footer-link">
-                Shop
+              <a href="/contact" className="footer-link">
+                Contact
               </a>
             </div>
             <div className="footer-column">
@@ -54,10 +52,10 @@ const Footer = () => {
                 Privacy Policy
               </a>
               <div className="footer-social">
-                <a href="#" className="social-link">
+                <a href="https://www.instagram.com/la_monijor/" className="social-link">
                   <img src="/images/Vector.png" alt="Social Icon" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://www.facebook.com/LaMonijor/" className="social-link">
                   <img src="/images/Vector1.png" alt="Social Icon" />
                 </a>
               </div>
