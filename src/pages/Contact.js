@@ -21,10 +21,9 @@ const Contact = () => {
           <p>
             The lake's eternal charm, combined with the beautiful
             <br />
-             surrounding landscape, offers a breathtaking view. The 
-             <br />
-              gentle waves and serene environment create a peaceful retreat.
-            
+            surrounding landscape, offers a breathtaking view. The
+            <br />
+            gentle waves and serene environment create a peaceful retreat.
           </p>
           <div className="contact-info">
             <div className="info-item">
@@ -51,7 +50,30 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-form">
-          <form>
+          <iframe
+            src="https://api.leadconnectorhq.com/widget/form/tfWHwFMzDFdFAL3soZdC"
+            style={{
+              width: "550px",
+              height: "1000px",
+              border: "none",
+              borderRadius: "4px",
+            }}
+            id="inline-tfWHwFMzDFdFAL3soZdC"
+            data-layout="{'id':'INLINE'}"
+            data-trigger-type="alwaysShow"
+            data-trigger-value=""
+            data-activation-type="alwaysActivated"
+            data-activation-value=""
+            data-deactivation-type="neverDeactivate"
+            data-deactivation-value=""
+            data-form-name="Test form"
+            data-height="598"
+            data-layout-iframe-id="inline-tfWHwFMzDFdFAL3soZdC"
+            data-form-id="tfWHwFMzDFdFAL3soZdC"
+            title="Test form"
+          />
+
+          {/* <form>
             <div className="form-group">
               <input type="text" placeholder="Your name*" required />
               <input type="email" placeholder="Email*" required />
@@ -64,13 +86,14 @@ const Contact = () => {
             <button type="submit" className="submit-button">
               Submit Message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
       <div className="map-section">
-      <iframe className=" w-3/4 h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.33203504006866!2d-64.4862870779074!3d-31.087727528520666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d8303ef0e7da3%3A0xbeb57619e03a6c28!2sPanaderia%20La%20Monijor!5e0!3m2!1sen!2snz!4v1726465027916!5m2!1sen!2snz" ></iframe>
-
-      
+        <iframe
+          className=" w-3/4 h-96"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.33203504006866!2d-64.4862870779074!3d-31.087727528520666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d8303ef0e7da3%3A0xbeb57619e03a6c28!2sPanaderia%20La%20Monijor!5e0!3m2!1sen!2snz!4v1726465027916!5m2!1sen!2snz"
+        ></iframe>
       </div>
       <div className="testimonial-column-light">
         <div className="text-11">Testimonial section</div>
